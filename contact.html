@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta
+    
+    name="description"
+    content="Contactez Foot Passion pour toute question ou collaboration."
+  />
+  <title>Contact | Foot Passion</title>
+
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap"
+    rel="stylesheet"
+  />
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+<header class="site-header">
+  <div class="container header-container">
+    <h1 class="logo">⚽ Foot Passion</h1>
+    <nav class="main-nav">
+      <a href="index.html">Accueil</a>
+      <a href="equipes.html">Équipes</a>
+      <a href="contact.html" class="active">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+
+  <section class="hero hero-contact">
+    <img
+      src="https://images.pexels.com/photos/47730/the-ball-stadion-football-the-pitch-47730.jpeg"
+      alt="Terrain de football au coucher du soleil"
+      class="hero-img"
+      loading="lazy"
+    />
+
+    <div class="hero-overlay"></div>
+
+    <div class="hero-content container">
+      <h2>Contactez-nous</h2>
+      <p>
+        Une question, une suggestion ou un partenariat ?<br />
+        L’équipe <strong>Foot Passion</strong> vous répond rapidement.
+      </p>
+    </div>
+  </section>
+
+  <section class="contact-section">
+    <div class="container contact-grid">
+
+      <div class="contact-info">
+        <h2>Nos coordonnées</h2>
+        <p>
+          Nous sommes passionnés par le football et toujours ouverts aux échanges.
+        </p>
+
+        <ul>
+          <li>
+            <strong>Email :</strong>
+            <a href="mailto:contact@footpassion.fr">
+              contact@footpassion.fr
+            </a>
+          </li>
+          <li><strong>Réseaux :</strong></li>
+        </ul>
+
+        <div class="social-links">
+          <a href="#" aria-label="Instagram">📸</a>
+          <a href="#" aria-label="Twitter">🐦</a>
+          <a href="#" aria-label="YouTube">▶️</a>
+        </div>
+      </div>
+
+      <form
+        class="contact-form"
+        method="post"
+        action=""
+        aria-labelledby="contact-form-title"
+      >
+        <h2 id="contact-form-title">Envoyer un message</h2>
+
+        <div class="form-group">
+          <label for="nom">Nom</label>
+          <input
+            type="text"
+            id="nom"
+            name="nom"
+            placeholder="Votre nom"
+            required
+          />
+        </div>
+
+        <div class="form-group">
+          <label for="email">Email</label>
+          <input
+            type="email"
+            id="email"
+            name="email"
+            placeholder="Votre email"
+            required
+          />
+        </div>
+
+        <div class="form-group">
+          <label for="message">Message</label>
+          <textarea
+            id="message"
+            name="message"
+            rows="6"
+            placeholder="Votre message"
+            required
+          ></textarea>
+        </div>
+
+        <button type="submit" class="btn-submit">
+          Envoyer le message ⚽
+        </button>
+      </form>
+
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <p>© 2026 — Foot Passion</p>
+  </div>
+</footer>
+
+</body>
+</html>
